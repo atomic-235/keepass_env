@@ -1,0 +1,11 @@
+/home/antonym/projects/personal/keyring-env/target/release/deps/ordered_stream-ba849f60920d474c.d: /home/antonym/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordered-stream-0.2.0/src/lib.rs /home/antonym/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordered-stream-0.2.0/src/adapters.rs /home/antonym/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordered-stream-0.2.0/src/join.rs /home/antonym/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordered-stream-0.2.0/src/multi.rs /home/antonym/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordered-stream-0.2.0/src/../README.md
+
+/home/antonym/projects/personal/keyring-env/target/release/deps/libordered_stream-ba849f60920d474c.rlib: /home/antonym/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordered-stream-0.2.0/src/lib.rs /home/antonym/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordered-stream-0.2.0/src/adapters.rs /home/antonym/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordered-stream-0.2.0/src/join.rs /home/antonym/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordered-stream-0.2.0/src/multi.rs /home/antonym/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordered-stream-0.2.0/src/../README.md
+
+/home/antonym/projects/personal/keyring-env/target/release/deps/libordered_stream-ba849f60920d474c.rmeta: /home/antonym/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordered-stream-0.2.0/src/lib.rs /home/antonym/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordered-stream-0.2.0/src/adapters.rs /home/antonym/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordered-stream-0.2.0/src/join.rs /home/antonym/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordered-stream-0.2.0/src/multi.rs /home/antonym/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordered-stream-0.2.0/src/../README.md
+
+/home/antonym/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordered-stream-0.2.0/src/lib.rs:
+/home/antonym/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordered-stream-0.2.0/src/adapters.rs:
+/home/antonym/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordered-stream-0.2.0/src/join.rs:
+/home/antonym/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordered-stream-0.2.0/src/multi.rs:
+/home/antonym/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordered-stream-0.2.0/src/../README.md:

@@ -1,0 +1,17 @@
+[package]
+name = "keyring-env"
+version = "0.1.0"
+edition = "2021"
+description = "Fast keyring to environment variable loader"
+license = "MIT"
+
+[dependencies]
+oo7 = "0.4"
+tokio = { version = "1", features = ["rt", "macros"] }
+base64 = "0.22"
+
+[profile.release]
+lto = true
+strip = true
+opt-level = "z"
+panic = "abort"
