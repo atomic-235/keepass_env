@@ -1,0 +1,28 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Rust
+        run: rustup default stable
+
+      - name: Build release
+        run: cargo build --release --locked
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: target/release/keyring-env
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

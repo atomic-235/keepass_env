@@ -1,0 +1,8 @@
+# Build artifacts
+target/
+
+# IDE
+.vscode/
+.idea/
+
+# Cargo.lock is tracked
