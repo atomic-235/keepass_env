@@ -13,16 +13,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Rust
-        run: rustup default stable
+      - name: Install Rust with musl target
+        run: |
+          rustup default stable
+          rustup target add x86_64-unknown-linux-musl
 
-      - name: Build release
-        run: cargo build --release --locked
+      - name: Install musl-tools
+        run: sudo apt-get update && sudo apt-get install -y musl-tools
+
+      - name: Build static release
+        run: cargo build --release --locked --target x86_64-unknown-linux-musl
+
+      - name: Rename binary
+        run: cp target/x86_64-unknown-linux-musl/release/keyring-env target/keyring-env
 
       - name: Create release
         uses: softprops/action-gh-release@v2
         with:
-          files: target/release/keyring-env
+          files: target/keyring-env
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
